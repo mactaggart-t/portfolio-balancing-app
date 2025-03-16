@@ -18,7 +18,7 @@ def get_stocks():
     return jsonify(data)
 
 # Endpoint 2: Serve sector data
-@app.route("/sectors", methods=["GET"])
+@app.route("/sectors", methods=["GET"]) 
 def get_sectors():
     data = load_json("sector_data.json")
     return jsonify(data)
