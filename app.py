@@ -1,7 +1,9 @@
 from flask import Flask, jsonify
 import json
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app, origins=["http://localhost:5173"])
 
 # Load JSON data
 def load_json(filename):

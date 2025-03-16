@@ -1,2 +1,4 @@
 .venv
 stocks.json
+stock_data.json
+sector_data.json
