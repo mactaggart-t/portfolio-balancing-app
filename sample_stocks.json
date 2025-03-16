@@ -1,0 +1,8 @@
+{
+    "stocks": [
+        {"ticker": "AAPL", "shares": 10},
+        {"ticker": "GOOGL", "shares": 5},
+        {"ticker": "MSFT", "shares": 8},
+        {"ticker": "TSLA", "shares": 12}
+    ]
+}
